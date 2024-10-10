@@ -6,33 +6,44 @@ document.getElementById('hamburger').addEventListener('click', function() {
 });
 
 // Some code borrowed from youtube channel, https://youtu.be/qOO6lVMhmGc?si=gB4ec4Mt8bP4vpoC 
-let currentSlideIndex = 0;
+let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-item');
+const totalSlides = slides.length;
 const dots = document.querySelectorAll('.dot');
 
+// Show Slide
 function showSlide(index) {
-    slides.forEach((slide) => {
-        slide.style.display = 'none';
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
     });
-    dots.forEach((dot) => {
-        dot.classList.remove('active');
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
     });
-    slides[index].style.display = 'block';
-    dots[index].classList.add('active');
+    document.querySelector('.carousel').style.transform = `translateX(-${index * 100}%)`;
+    currentSlide = index;
 }
 
+// Next Slide
 function nextSlide() {
-    currentSlideIndex = (currentSlideIndex + 1) % slides.length; 
+    let nextIndex = (currentSlide + 1) % totalSlides;
+    showSlide(nextIndex);
 }
 
+// Previous Slide
 function prevSlide() {
-    currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length; 
-    showSlide(currentSlideIndex);
+    let prevIndex = (currentSlide - 1 + totalSlides) % totalSlides;
+    showSlide(prevIndex);
 }
 
-function currentSlide(index) {
-    currentSlideIndex = index - 1; 
-    showSlide(currentSlideIndex);
-}
-showSlide(currentSlideIndex);
+// Set up Event Listeners for navigation
+document.querySelector('.carousel-next').addEventListener('click', nextSlide);
+document.querySelector('.carousel-prev').addEventListener('click', prevSlide);
+
+// Dots Navigation
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => showSlide(index));
+});
+
+// Auto carousel rotation every 5 seconds
+setInterval(nextSlide, 5000);
 

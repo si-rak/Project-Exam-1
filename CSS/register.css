@@ -62,7 +62,7 @@
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #888;
 }
 
@@ -86,5 +86,112 @@
 }
 
 .register-btn:hover {
-  background-color: #0077cc;
+  background-color: #007bff;
+  color: white;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.login-prompt {
+  margin-top: 15px;
+}
+
+
+@media (max-width: 1024px) {
+  .register-container {
+    max-width: 350px;
+  }
+
+  .register-title {
+    font-size: 1.8rem;
+  }
+
+  .input-container input {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+
+  .register-btn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .error-message {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    max-width: 320px;
+  }
+
+  .register-title {
+    font-size: 1.6rem;
+  }
+
+  .input-container input {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+  }
+
+  .register-btn {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  .error-message {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .register-title {
+    font-size: 1.4rem;
+  }
+
+  .input-container input {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .register-btn {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .error-message {
+    font-size: 0.7rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .register-container {
+    padding: 8px;
+    max-width: 100%;
+  }
+
+  .register-title {
+    font-size: 1.2rem;
+  }
+
+  .input-container input {
+    padding: 6px;
+    font-size: 0.75rem;
+  }
+
+  .register-btn {
+    padding: 6px;
+    font-size: 0.75rem;
+  }
+
+  .error-message {
+    font-size: 0.65rem;
+  }
 }

@@ -36,25 +36,30 @@
     </div>
     <button class="hamburger" id="hamburger">&#9776;</button>
   </header>
-  <!-- Some code borrowed from youtube channel, https://youtu.be/lhaz18jZT_A?si=YTDacI0GZhf202L3--->
+
   <div class="main-container">
     <div class="login-container">
-      <h2 class="login-title">Login</h2>
-      <p>Please login to manage your posts</p>
-      <!-- Some code borrowed from youtube channel, https://youtu.be/CYlNJpltjMM?si=YnBaRhvgGhskkITR-->
-      <p class="validation-message" id="validationMessage" style="display: none;">Invalid email or password</p>
-      <form id="loginForm">
-        <div class="input-group">
-          <input type="email" id="email" class="login-input" placeholder="Email" required>
-          <i class="fas fa-envelope input-icon"></i>
-        </div>
-        <div class="input-group">
-          <input type="password" id="password" class="login-input" placeholder="Password" required>
-          <i class="fas fa-lock input-icon"></i>
-        </div>
-        <button type="submit" class="login-btn">Sign In</button>
-      </form>
-      <p class="register-link">Don't have an account? <a href="register.html">Register</a></p>
+      <h1 class="login-title">Login to Your Account</h1>
+      <p class="login-subtitle">Please login to manage your posts</p>
+      <div class="input-field-container">
+        <input type="email" id="loginEmail" class="login-input" placeholder="Email" required>
+        <i class="fas fa-envelope input-icon"></i>
+      </div>
+      <div class="input-field-container">
+        <input type="password" id="loginPassword" class="login-input" placeholder="Password" required>
+        <i class="fas fa-lock input-icon"></i>
+        <!-- Some code borrowed from youtube channel,  https://youtu.be/H8ThscWsQV8?si=HSdDlOAPQAPQVY4V -->
+      </div>
+      <div class="error-message" id="errorMessage">Invalid email or password</div>
+      <button class="login-button" id="loginButton">Log In</button>
+      <div class="register-prompt">
+        <p>Don't have an account? <a href="register.html" class="register-link">Register</a></p>
+      </div>
+      <div class="admin-login-details">
+        <h2 class="admin-title">Admin Login Details</h2>
+        <p>Email: <strong>login@admin.com</strong></p>
+        <p>Password: <strong>admin357</strong></p>
+      </div>
     </div>
   </div>
 

@@ -1,16 +1,17 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-// Some code borrowed from youtube channel, https://youtu.be/In0nB0ABaUk?si=-58NjbIuE7agke6U
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  const validationMessage = document.getElementById('validationMessage');
+document.getElementById('loginButton').addEventListener('click', function() {
+  const email = document.getElementById('loginEmail').value;
+  const password = document.getElementById('loginPassword').value;
 
-  if (email !== "test@example.com" || password !== "password") {
-      validationMessage.textContent = 'Invalid email or password';
-      validationMessage.style.display = 'block';
-      return;
+  const adminEmail = 'login@admin.com';
+  const adminPassword = 'admin357';
+
+  const errorMessage = document.getElementById('errorMessage');
+  errorMessage.style.display = 'none'; 
+
+  if (email === adminEmail && password === adminPassword) {
+      localStorage.setItem('authToken', 'your-token-here');
+      alert('Login successful!'); 
+  } else {
+      errorMessage.style.display = 'block';
   }
-
-  validationMessage.style.display = 'none';
-  alert("Login successful!");
 });
