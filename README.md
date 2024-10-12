@@ -30,3 +30,7 @@ To run the website locally, follow these steps:
    ``` bash
    https://github.com/si-rak/PE--1.git
    ```
+2. Navigate to the project folder:
+   ``` bash
+   PE--1
+   ```
