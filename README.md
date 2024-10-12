@@ -34,3 +34,18 @@ To run the website locally, follow these steps:
    ``` bash
    PE--1
    ```
+   Open the index.html file in your preferred browser to view the site.
+
+### Running the Website
+This is a static website that can be opened directly in any browser:
+
+1. Download or clone the repository.
+2. Open the index.html file in your browser to view the blog.
+
+## Contributing
+Contributions are encouraged! If you have ideas for new features, improvements, or bug fixes, feel free to contribute to the project.
+
+### How to Contribute
+1. ####Fork this repository:
+Click the "Fork" button at the top-right of the repository page on GitHub.
+2. ####Clone your forked repository:
