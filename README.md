@@ -26,4 +26,7 @@ This project is the first project exam, focused on developing a Tech Research an
 ###Installation
 To run the website locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
+   ``` bash
+   https://github.com/si-rak/PE--1.git
+   ```
