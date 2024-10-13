@@ -1,6 +1,5 @@
 # Project Exam 1: Tech Research and Development Blog App
 ![jackson-sophat-TQ3SgrW9lkM-unsplash](https://github.com/user-attachments/assets/8b833170-b749-4832-be82-611bd9761d4c)
-![Uploading thisisengineering-w_zE6qlkQKA-unsplash.jpg…]()
 
 ## Project Overview
 This project is the first project exam, focused on developing a Tech Research and Development Blog website using HTML, CSS, and JavaScript. The blog provides a platform for sharing the latest research, insights, and developments in the field of technology. It includes interactive elements and integrates with external APIs to provide dynamic content, enhancing the user experience.
