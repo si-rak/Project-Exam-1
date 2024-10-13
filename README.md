@@ -68,6 +68,10 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
     ``` bash
         git push origin feature-branch
    ```
+7. ### Create a Pull Request:
+
+- Go to your forked repository on GitHub and open a Pull Request.
+- Provide a description of the changes you've made.
   
 
   
