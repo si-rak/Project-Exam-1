@@ -76,8 +76,9 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
 ## Contact
 If you have any questions, suggestions, or would like to collaborate, feel free to reach out:
 
-Email: zebeaman3@gmail.com
-LinkedIn: Your LinkedIn Profile
+- Email: zebeaman3@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sirak-getachew-a422a7208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+
 
 ## Acknowledgments
 - A heartfelt thanks to my instructors for their guidance throughout this project.
