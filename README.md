@@ -56,6 +56,15 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
 3. ### Create a new branch for your feature:
    ``` bash
    git checkout -b feature-branch
-   ``` 
+   ```
+4. ### Make your changes and improvements to the project (HTML, CSS, or JS files).
+
+5. ### Commit your changes:
+   ``` bash
+    git add .
+    git commit -m 
+   ```
+  
+
 
  
