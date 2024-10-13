@@ -48,4 +48,5 @@ Contributions are encouraged! If you have ideas for new features, improvements, 
 ### How to Contribute
 1. #### Fork this repository:
 Click the "Fork" button at the top-right of the repository page on GitHub.
+
 2. #### Clone your forked repository:
