@@ -62,7 +62,7 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
 5. ### Commit your changes:
    ``` bash
     git add .
-    git commit -m 
+    git commit -m "Short description of changes"
    ```
 6. ### git push origin feature-branch
     ``` bash
