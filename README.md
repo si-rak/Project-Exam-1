@@ -64,6 +64,12 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
     git add .
     git commit -m 
    ```
+6. ### git push origin feature-branch
+    ``` bash
+        git push origin feature-branch
+   ```
+  
+
   
 
 
