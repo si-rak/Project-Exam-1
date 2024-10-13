@@ -50,3 +50,7 @@ Contributions are encouraged! If you have ideas for new features, improvements, 
 Click the "Fork" button at the top-right of the repository page on GitHub.
 
 2. #### Clone your forked repository:
+ ``` bash
+    https://github.com/si-rak/PE--1.git
+   ```
+ 
