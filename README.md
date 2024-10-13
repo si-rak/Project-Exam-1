@@ -23,7 +23,7 @@ This project is the first project exam, focused on developing a Tech Research an
 ### Prerequisites
 - A modern web browser is required to view the website.
 - Basic knowledge of how to clone and run a GitHub repository.
-###Installation
+### Installation
 To run the website locally, follow these steps:
 
 1. Clone the repository:
