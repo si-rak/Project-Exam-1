@@ -46,6 +46,6 @@ This is a static website that can be opened directly in any browser:
 Contributions are encouraged! If you have ideas for new features, improvements, or bug fixes, feel free to contribute to the project.
 
 ### How to Contribute
-1. ####Fork this repository:
+1. #### Fork this repository:
 Click the "Fork" button at the top-right of the repository page on GitHub.
-2. ####Clone your forked repository:
+2. #### Clone your forked repository:
