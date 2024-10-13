@@ -72,6 +72,16 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
 
 - Go to your forked repository on GitHub and open a Pull Request.
 - Provide a description of the changes you've made.
+
+## Contact
+If you have any questions, suggestions, or would like to collaborate, feel free to reach out:
+
+Email: zebeaman3@gmail.com
+LinkedIn: Your LinkedIn Profile
+
+## Acknowledgments
+- A heartfelt thanks to my instructors for their guidance throughout this project.
+- A big hanks to classmates for their support and feedback.
   
 
   
