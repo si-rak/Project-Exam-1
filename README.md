@@ -82,7 +82,7 @@ If you have any questions, suggestions, or would like to collaborate, feel free 
 
 ## Acknowledgments
 - A heartfelt thanks to my instructors for their guidance throughout this project.
-- A big hanks to classmates for their support and feedback.
+- A big thanks to classmates for their support and feedback.
   
 
   
