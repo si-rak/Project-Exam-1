@@ -34,7 +34,7 @@ To run the website locally, follow these steps:
    ``` bash
    PE--1
    ```
-   Open the index.html file in your preferred browser to view the site.
+3. Open the index.html file in your preferred browser to view the site.
 
 ### Running the Website
 This is a static website that can be opened directly in any browser:
@@ -53,4 +53,9 @@ Click the "Fork" button at the top-right of the repository page on GitHub.
  ``` bash
     https://github.com/si-rak/PE--1.git
    ```
+3. ### Create a new branch for your feature:
+   ``` bash
+   git checkout -b feature-branch
+   ``` 
+
  
