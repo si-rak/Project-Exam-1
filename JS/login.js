@@ -15,7 +15,7 @@ document.getElementById('loginButton').addEventListener('click', function(event)
   if (email === adminEmail && password === adminPassword) {
       localStorage.setItem('authToken', 'your-token-here'); 
       
-      window.location.href = 'https://voluble-narwhal-669edf.netlify.app/login'; 
+      window.location.href = 'https://67119a09e46c88e543d6878c--warm-buttercream-0d2533.netlify.app/html/edit'; 
 
   } else {
       errorMessage.textContent = 'Invalid email or password';
