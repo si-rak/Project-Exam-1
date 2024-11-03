@@ -16,6 +16,12 @@
     box-sizing: border-box;
 }
 
+.login-container p {
+    font-size: smaller;
+    margin-bottom: 10px;
+    color: black;
+}
+
 .login-title {
     font-size: 2rem;
     margin-bottom: 10px;

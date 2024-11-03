@@ -12,7 +12,7 @@ document.getElementById('loginButton').addEventListener('click', function(event)
   const errorMessage = document.getElementById('errorMessage');
   errorMessage.style.display = 'none'; 
 
-  if (email === adminEmail && password === adminPassword) {
+  if (email === login@admin.com && password === admin357) {
       localStorage.setItem('', ''); 
       
       window.location.href = 'https://67119a09e46c88e543d6878c--warm-buttercream-0d2533.netlify.app/html/edit'; 

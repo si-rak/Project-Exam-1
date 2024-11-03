@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.register-container p {
+  font-size: smaller;
+  margin-bottom: 10px;
+}
 
 .success-message {
   text-align: center;
