@@ -13,7 +13,7 @@ document.getElementById('loginButton').addEventListener('click', function(event)
   errorMessage.style.display = 'none'; 
 
   if (email === login@admin.com && password === admin357) {
-      localStorage.setItem('', ''); 
+      localStorage.setItem('https://docs.noroff.dev/docs/v2/auth/login'); 
       
       window.location.href = 'https://67119a09e46c88e543d6878c--warm-buttercream-0d2533.netlify.app/html/edit'; 
 

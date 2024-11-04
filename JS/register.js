@@ -1,21 +1,38 @@
-document.getElementById('registerForm').addEventListener('submit', function(event) {
+
+document.getElementById('registerButton').addEventListener('click', function(event) {
   event.preventDefault();
-// Some code borrowed from youtube channel, https://youtu.be/rsd4FNGTRBw?si=PiHgJ5CfROsZFQDq
-  const fullName = document.getElementById('fullName').value;
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  const confirmPassword = document.getElementById('confirmPassword').value;
 
-  const validationMessage = document.getElementById('validationMessage');
-  const successMessage = document.getElementById('successMessage');
+  // Retrieve form data
+  const name = document.getElementById('nameInput').value;
+  const email = document.getElementById('emailInput').value;
+  const password = document.getElementById('passwordInput').value;
+  
+  // Construct the data object to match the API requirements
+  const registrationData = {
+    name: name,           // Required
+    email: email,         // Required
+    password: password,   // Required
+  };
 
-  if (password !== confirmPassword) {
-      validationMessage.textContent = 'Passwords do not match.';
-      validationMessage.style.display = 'block';
-      successMessage.style.display = 'none';
-      return;
-  }
-
-  validationMessage.style.display = 'none';
-  successMessage.style.display = 'block';
+  // Send data to the registration API endpoint
+  fetch('https://docs.noroff.dev/docs/v2/auth/register', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(registrationData)
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      alert('Registration successful!');
+      // Redirect or perform additional actions after registration
+    } else {
+      alert('Registration failed: ' + data.message);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('An error occurred. Please try again later.');
+  });
 });
