@@ -22,3 +22,4 @@ document.getElementById('loginButton').addEventListener('click', function(event)
       errorMessage.style.display = 'block';
   }
 });
+
