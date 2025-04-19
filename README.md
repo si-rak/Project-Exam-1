@@ -51,6 +51,8 @@ Exam: Project Exam 1 (PE-1)
 
 ## Project Links
 
-GitHub Repository:
+GitHub Repository:  
+[View on GitHub](https://github.com/si-rak/Project-Exam-1)
 
-Live Site (Netlify):
+Live Site (Netlify):  
+[Live Demo on Netlify](https://warm-buttercream-0d2533.netlify.app)
