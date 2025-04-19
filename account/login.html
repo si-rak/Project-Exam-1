@@ -5,24 +5,28 @@
   <title>HotView Labs - Leading Tech Research and Latest Innovations</title>
   <meta name="description"
     content="Explore the latest innovations, research breakthroughs, and insights in technology at HotView Labs.">
-  <meta name="keywords" content="tech research, technology blog, AI, blockchain, R&D, HotView Labs">
+  <meta name="keywords" content="Login, tech research, technology blog,">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/css/login.css">
   <link rel="stylesheet" type="text/css" href="/css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
+
   <header class="header">
     <div class="logo-container">
-      <a href="index.html" class="logo">HotView Labs</a>
+      <a href="/index.html" class="logo">HotView Labs</a>
+    </div>
     </div>
     <nav class="nav-menu" id="navMenu">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="/index.html">Home</a></li>
         <li><a href="">About</a></li>
-        <li><a href="post/index.html">Blog</a></li>
+        <li><a href="/post/index.html">Blog</a></li>
         <li><a href="">Contact</a></li>
       </ul>
     </nav>
@@ -33,48 +37,24 @@
     <button class="hamburger" id="hamburger">&#9776;</button>
   </header>
 
-  <div class="carousel-container">
-    <div class="carousel">
-      <div class="carousel-item active">
-        <img src="assets/images/thisisengineering-w_zE6qlkQKA-unsplash.jpg" alt="slide 1">
-        <div class="carousel-caption">
-          <h2>Quantum Computing in R&D</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="post/index.html?id=be2582e1-d624-4bd7-bf4f-e27c18ea35e5" class="read-more">Read More</a>
-        </div>
+  <div class="main-container">
+    <div class="login-container">
+      <h1 class="login-title">Login to Your Account</h1>
+      <p class="login-subtitle">Please login to manage your posts</p>
+      <div class="input-field-container">
+        <input type="email" id="loginEmail" class="login-input" placeholder="Email" required>
+        <i class="fas fa-envelope input-icon"></i>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/traxer-nw_Fsd0K7s0-unsplash.jpg" alt="slide 2">
-        <div class="carousel-caption">
-          <h2>Blockchain Beyond Cryptocurrency</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="post/index.html?id=be2582e1-d624-4bd7-bf4f-e27c18ea35e5" class="read-more">Read More</a>
-        </div>
+      <div class="input-field-container">
+        <input type="password" id="loginPassword" class="login-input" placeholder="Password" required>
+        <i class="fas fa-lock input-icon"></i>
+        <!-- Some code borrowed from youtube channel,  https://youtu.be/H8ThscWsQV8?si=HSdDlOAPQAPQVY4V -->
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/sobejan-srikanthan-Mjnsnk9my38-unsplash.jpg" alt="slide 3">
-        <div class="carousel-caption">
-          <h2>5G and Beyond</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="post/index.html?id=be2582e1-d624-4bd7-bf4f-e27c18ea35e5" class="read-more">Read More</a>
-        </div>
+      <div class="error-message" id="errorMessage">Invalid email or password</div>
+      <button class="login-button" id="loginButton">Log In</button>
+      <div class="register-prompt">
+        <p>Don't have an account? <a href="register.html" class="register-link">Register</a></p>
       </div>
-    </div>
-    <div class="carousel-controls">
-      <button class="carousel-prev" onclick="prevSlide()">❮</button>
-      <button class="carousel-next" onclick="nextSlide()">❯</button>
-    </div>
-    <div class="pagination">
-      <span class="dot active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-  </div>
-
-  <div class="thumbnail-grid">
-    <h2>More Posts</h2>
-    <div class="grid-container" id="feed-posts">
-      <!-- API blog posts -->
     </div>
   </div>
 
@@ -83,17 +63,17 @@
       <div class="custom-footer-column">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="post/edit.html">Edit</a></li>
-          <li><a href="account/login.html">Log In</a></li>
-          <li><a href="account/register.html">Register</a></li>
+          <li><a href="/post/edit.html">Edit</a></li>
+          <li><a href="/account/login.html">Log In</a></li>
+          <li><a href="/account/register.html">Register</a></li>
         </ul>
       </div>
       <div class="custom-footer-column">
         <h3>Resources</h3>
         <ul>
-          <li><a href="post/index.html">Recent Publications</a></li>
-          <li><a href="post/index.html">Archived Papers</a></li>
-          <li><a href="post/index.html">Research Softwares</a></li>
+          <li><a href="/post/index.html">Recent Publications</a></li>
+          <li><a href="/post/index.html">Archived Papers</a></li>
+          <li><a href="/post/index.html">Research Softwares</a></li>
         </ul>
       </div>
       <div class="custom-footer-column">
@@ -122,6 +102,7 @@
     </div>
   </footer>
 
+  <script src="/account/login.js"></script>
   <script src="/js/index.js"></script>
 </body>
 

@@ -91,24 +91,6 @@
     margin-top: 15px;
 }
 
-.admin-login-details {
-    margin-top: 20px;
-    background-color: #ebfdff;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #007bff;
-}
-
-.admin-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.admin-login-details p {
-    margin: 5px 0;
-    color: #555;
-}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {

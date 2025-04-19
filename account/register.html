@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Register | Tech Research Blog</title>
+  <meta name="description" content="Create an account on Tech Research Blog.">
+  <meta name="keywords" content="Register, Tech blog registration, Create account, Sign up">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/css/register.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <a href="/index.html" class="logo">HotView Labs</a>
+    </div>
+    </div>
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="/post/index.html">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <i class="fa fa-search"></i>
+    </div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </header>
+
+  <div class="main-container">
+    <div class="register-container">
+      <!-- Some code borrowed from youtube channel, https://youtu.be/lRrrLCrZDxI?si=9KuF-rcNNxQEj4-X -->
+      <div class="success-message" id="successMessage" style="display: none;">
+        <span class="checkmark">&#10003;</span>
+      </div>
+      <h2 class="register-title">Create Your Account</h2>
+      <p>Create an account to manage your posts</p>
+      <form id="registerForm">
+        <div class="input-group">
+          <input type="text" id="fullName" class="register-input" placeholder="Full Name" required>
+          <i class="fas fa-user input-icon"></i>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" class="register-input" placeholder="Email" required>
+          <i class="fas fa-envelope input-icon"></i>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" class="register-input" placeholder="Password" required>
+          <i class="fas fa-lock input-icon"></i>
+        </div>
+        <div class="input-group">
+          <input type="password" id="confirmPassword" class="register-input" placeholder="Confirm Password" required>
+          <i class="fas fa-lock input-icon"></i>
+        </div>
+        <p class="validation-message" id="validationMessage" style="display: none;">Invalid input. Please try again.</p>
+        <button type="submit" class="register-btn">Register</button>
+        <div class="login-prompt">
+          <p>Already have an account? <a href="login.html" class="login-link">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="custom-footer">
+    <div class="custom-footer-container">
+      <div class="custom-footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/post/edit.html">Edit</a></li>
+          <li><a href="/account/login.html">Log In</a></li>
+          <li><a href="/account/register.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="custom-footer-column">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/post/index.html">Recent Publications</a></li>
+          <li><a href="/post/index.html">Archived Papers</a></li>
+          <li><a href="/post/index.html">Research Softwares</a></li>
+        </ul>
+      </div>
+      <div class="custom-footer-column">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> +4790000000</li>
+          <li><i class="fa-solid fa-envelope"></i> contact@hotviewlabs.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Langgata 1, 4020 Stavanger, Norway</li>
+        </ul>
+      </div>
+    </div>
+    <div class="custom-social-media">
+      <a href="https://facebook.com" target="_blank" class="custom-social-icon"><i
+          class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com" target="_blank" class="custom-social-icon"><i
+          class="fa-brands fa-youtube"></i></a>
+      <a href="https://instagram.com" target="_blank" class="custom-social-icon"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank" class="custom-social-icon"><i
+          class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="custom-social-icon"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="custom-footer-bottom">
+      <span>Terms of Use</span> | <span>Privacy Policy</span> | <span>&copy; 2024 HotView Labs</span>
+    </div>
+  </footer>
+
+  <script src="/account/register.js"></script>
+  <script src="/js/index.js"></script>
+</body>
+
+</html>

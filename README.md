@@ -1,10 +1,56 @@
-Tech Research Blog - Project Exam 1
+# Tech Research Blog – Project Exam 1
 
-Overview Welcome to the Tech Research Blog! This web application serves as a platform for showcasing the latest advancements and discussions in technology research.
+This project is a front-end web application developed for the Project Exam 1 at Noroff. It serves as a technology research blog where users can explore recent blog posts, and logged-in owners can manage their content.
 
-Features Responsive Design: The website is fully responsive, ensuring a seamless experience on both mobile and desktop devices. User-Friendly Interface: Clear navigation and layout make it easy for users to find and read articles.
+## Overview
 
-Technologies Used; 
-HTML5: For the structure of the web pages.
-CSS3: For styling and responsive design. JavaScript: For interactivity and fetching data from the API. API Integration: Utilizes the Noroff API for dynamic content retrieval.
+The application allows users to:
 
+- View a rotating carousel highlighting featured posts
+- Browse a grid of the latest 12 posts fetched from the Noroff API
+- Read full blog posts dynamically using URL query parameters
+- Register and log in as an owner
+- Edit and delete posts (for authenticated users)
+- Copy or share post links directly
+
+## Features
+
+- Responsive layout across devices
+- Dynamic carousel with animated transitions
+- Real-time blog feed from the Noroff API
+- Single post view based on post ID
+- Token-based login and secure API interactions
+- Functional copy link and native share buttons
+- Modular and clean folder structure
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Noroff Blog API (Version 2)
+- Fetch API
+- LocalStorage
+
+## API Endpoints
+
+- POST /auth/register
+- POST /auth/login
+- GET /blog/posts/:username
+- GET /blog/posts/:username/:id
+- PUT /blog/posts/:username/:id
+- DELETE /blog/posts/:username/:id
+
+## Developer Info
+
+Name: Sirak Getachew  
+GitHub Username: si-rak  
+Email: sirakfinal@stud.noroff.no  
+Class: OCT23FT  
+Exam: Project Exam 1 (PE-1)
+
+## Project Links
+
+GitHub Repository:
+
+Live Site (Netlify):
